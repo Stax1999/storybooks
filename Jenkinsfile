@@ -6,14 +6,14 @@ pipeline{
         echo'building the appllication..'
       }
     }
-     stage("mate"){
+     stage("test"){
       steps{
-        echo'building the applliction..'
+        echo'hang on a moment whilst we test this out!'
       }
     }
-     stage("gate"){
+     stage("deployment"){
       steps{
-        echo'building the appllicatin..'
+        echo'Ready this application is ready for commiting !!!'
       }
     }
   }
