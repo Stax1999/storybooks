@@ -1,9 +1,9 @@
 pipeline{
   agent any
   stages{
-    stage("buil"){
+    stage("build"){
       steps{
-        echo'building the appllication..'
+        echo'building the appllication..??????'
       }
     }
      stage("test"){
