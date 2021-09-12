@@ -6,14 +6,14 @@ pipeline{
         echo'building the appllication..'
       }
     }
-     stage("build"){
+     stage("mate"){
       steps{
-        echo'building the appllication..'
+        echo'building the applliction..'
       }
     }
-     stage("build"){
+     stage("gate"){
       steps{
-        echo'building the appllication..'
+        echo'building the appllicatin..'
       }
     }
   }
